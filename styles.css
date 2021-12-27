@@ -1,0 +1,290 @@
+body {
+  position: relative;
+  font-family: 'Domine', serif;
+  color: white;
+  line-height: 1.5;
+  text-align: center;
+  margin:0;
+}
+
+/* Sections */
+.purple-colored-section {
+  background-color: #781D42;
+}
+
+.light-brown-colored-section {
+  color: #A3423C;
+  background-color: #F0D290;
+}
+
+/* Containers */
+.top-container {
+  padding: 10%;
+  margin-bottom: 30%;
+}
+.row {
+  margin-right: 0;
+}
+.container-fluid {
+padding-bottom: 5%;
+}
+
+/* Navbar */
+.navbar {
+  color: white;
+  padding: 0 10%;
+  /* margin: 0 3rem; */
+  font-family: "Cabin", sans-serif;
+  font-size: 1.2rem;
+}
+
+.navbar-brand{
+  padding: 3%;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 2%;
+}
+.navbar .container-fluid {
+  padding-bottom: 3%;
+}
+/* Title Section  */
+
+.title {
+  padding-bottom: 10%;
+}
+.big-heading {
+  font-size: 6rem;
+  font-weight: 900;
+
+}
+
+.tag-line {
+  font-size: 1.3rem;
+  padding-left: 2rem;
+}
+.title-text {
+  padding: 4% 2% 4% 8%;
+  line-height: 1.5;
+}
+
+.play-button {
+  position: absolute;
+  left: 14%;
+  color: white;
+  margin-top: 2%;
+}
+
+.title-img {
+  margin-top: 2rem;
+  position:absolute;
+  width: 60%;
+  left: 35%;
+}
+
+/* Feature Section */
+#features {
+  position:relative;
+  z-index:1;
+  padding: 3% 10%;
+}
+
+.features-heading {
+  text-shadow: 2px 2px #A3423C;
+  font-size: 3rem;
+}
+
+.feature-title {
+  padding-top: 10%;
+}
+
+.feature-block{
+  padding: 5%;
+}
+
+/* Instruction Section */
+#instruction {
+  padding: 5% 10%;
+}
+
+
+.rocket {
+  width: 30%;
+  position:absolute;
+  top: 10%;
+  left: 80%;
+}
+.instructions {
+  text-align: left;
+  padding: 2%;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  position: relative;
+}
+.instruction-heading {
+  font-size: 3rem;
+  text-shadow: 2px 2px #fff;
+}
+
+/* Game Section */
+#game {
+  padding: 5% 10%;
+}
+#game .container-fluid {
+  padding-bottom: 0;
+}
+.game-box{
+  text-align: center;
+  position: 0;
+  left: 28%;
+  padding-top: 0;
+  margin-top: 0;
+}
+.play {
+  font-size: 3rem;
+  text-shadow: 2px 2px #A3423C;
+}
+.play-tag {
+  font-size: 1.5rem;
+  text-shadow: 1px 1px #A3423C;
+  margin-bottom: 2%;
+}
+.box {
+  margin: 30px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 20%;
+}
+.red {
+  background-color: red;
+  position: relative;
+
+}
+.yellow {
+  background-color: yellow;
+}
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+/* Game Behaviour */
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+/* Greeting Section */
+.greeting-heading {
+  text-shadow: 1px 1px #fff;
+  padding: 5% 10%;
+}
+
+
+.bottom {
+  width: 40%;
+  text-align: center;
+}
+
+.greeting-text {
+  padding: 5% 0;
+}
+
+@media screen and (max-width: 640px) {
+body {
+  text-align: center;
+}
+
+
+  /* Title Section */
+  .title {
+    padding-bottom: 50%;
+  }
+.big-heading{
+  font-size: 4rem;
+  text-align: left;
+  padding-bottom: 10%;
+}
+
+.tag-line {
+  font-size: 1.5rem;
+  text-align: left;
+  padding-left: 2%;
+  padding-bottom: 10%;
+}
+
+.play-button {
+  right: 40%;
+  padding-left: 5%;
+
+}
+.title-img {
+  top: 9%;
+  width: 70%;
+}
+
+/* Instruction Section  */
+#instruction {
+  padding: 5% 0;
+}
+.instruction-set {
+  text-align: left;
+}
+
+/* Game Section */
+#game {
+  padding-bottom: 90%;
+  position: relative;
+}
+.box {
+  height: 100px;
+  width: 100px;
+}
+
+.green {
+  position: absolute;
+  left: 10%;
+}
+
+.red {
+  position: absolute;
+  right: 10%;
+}
+
+.yellow {
+  position: absolute;
+  left: 10%;
+  top: 60%;
+}
+
+.blue {
+  position: absolute;
+  top: 60%;
+  right: 10%;
+}
+
+/* Greeting Section  */
+#contact {
+  text-align: center;
+}
+#contact .container-fluid{
+  margin: 0;
+  width: 100%;
+}
+.greeting-text{
+  text-align: center;
+  width: 100%;
+}
+}
