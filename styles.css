@@ -202,12 +202,19 @@ padding-bottom: 5%;
   padding: 5% 0;
 }
 
+
+
+
+
+
 @media screen and (max-width: 640px) {
 body {
   text-align: center;
 }
 
-
+.container-fluid {
+  padding: 2% 10%;
+}
   /* Title Section */
   .title {
     padding-bottom: 50%;
@@ -231,13 +238,19 @@ body {
 
 }
 .title-img {
-  top: 9%;
+  position: absolute;
+  top: 10%;
   width: 70%;
+  left: 30%;
 }
 
 /* Instruction Section  */
 #instruction {
   padding: 5% 0;
+}
+
+.rocket {
+  visibility: hidden;
 }
 .instruction-set {
   text-align: left;
